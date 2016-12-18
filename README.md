@@ -35,7 +35,8 @@ NB If your CSV data is corrupted - eg a cell is empty where it shouldn't be - th
 ## Use case example
 I have the following email template:
 
-```Email: <EMAIL>
+```
+Email: <EMAIL>
 
 Dear <NAME>,
 
@@ -46,7 +47,8 @@ Michael
 ```
 
 I need to send it to 3 recipients so I create the following CSV file:
-```EMAIL,NAME,REASON
+```
+EMAIL,NAME,REASON
 test@test.com,Professor Richard Franks,we really loved your work
 rick@rick.com,professor Rick Rick,I didn't like that
 simon@simon.com,Professor Simons,fantastic heuristics
