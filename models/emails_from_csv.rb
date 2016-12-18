@@ -33,12 +33,3 @@ class EmailsFromCSV
   end
 
 end
-
-# CSV.foreach("emailinformation.csv") do |row|
-#   row.each {|x| puts x}
-# end
-=begin
-for each csv array, you want to
-- match header to template
-- use header index to get contact[i], and replace template
-=end
