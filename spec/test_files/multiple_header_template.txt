@@ -1,0 +1,8 @@
+Email: <EMAIL>
+
+Dear <NAME>,
+I hate <HATE_FOOD>.
+We really liked your work because <REASON>
+I love <LOVE_FOOD>
+Many thanks and best wishes,
+Michael
