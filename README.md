@@ -15,14 +15,19 @@ So I TDD'd this approach where you can provide a CSV file of columns of any info
 2 Create two new folders: `mkdir programme_inputs programme_output`
 
 3 Add your .csv file to the programme_inputs folder
-
   * Your CSV file should have a single header row
+
 4 Add your email template .txt file to the programme_inputs folder
   * The format of the tags in the email template should be the same as your header row, but with <> either side. See Use Case Example for more details.
+
 5 In terminal, open irb or pry
+
 6 `email_generator = EmailsFromCSV.new`
+
 7 `email_generator.import_csv_template("./programme_inputs/my_csv_file.csv")`
+
 8 `email_generator.import_email_template("./programme_inputs/my_email_template.csv")`
+
 9 `email_generator.create_file_with_personalised_emails("my_personalised_emails")` This will create a .txt file in programme_outputs which contains a list of your email_template, personalised to every row in your CSV file.
 
 NB If your CSV data is corrupted - eg a cell is empty where it shouldn't be - the programme will throw an error pointing you towards the possible corrupted row - (`Your CSV data seems to be corrupted at row 22`). Fix the data and try to re-run.
