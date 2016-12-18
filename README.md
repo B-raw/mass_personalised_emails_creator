@@ -28,7 +28,7 @@ So I TDD'd this approach where you can provide a CSV file of columns of any info
 
 8 `email_generator.import_email_template("./programme_inputs/my_email_template.csv")`
 
-9 `email_generator.create_file_with_personalised_emails("my_personalised_emails")` This will create a .txt file in programme_outputs which contains a list of your email_template, personalised to every row in your CSV file.
+9 `email_generator.create_file_with_personalised_emails("my_personalised_emails")` This will create a .txt file in programme_outputs called my_personalised_emails.txt which contains a list of your email_template, personalised to every row in your CSV file.
 
 NB If your CSV data is corrupted - eg a cell is empty where it shouldn't be - the programme will throw an error pointing you towards the possible corrupted row - (`Your CSV data seems to be corrupted at row 22`). Fix the data and try to re-run.
 
