@@ -22,7 +22,7 @@ class EmailsFromCSV
     @full_email_string += @email_to_copy + "\n___\n\n"
     @email_to_copy = @email_template
     end
-  @full_email_string
+    @full_email_string
   end
 
   def create_file_with_personalised_emails(filename)
